@@ -25,6 +25,7 @@ export default function App() {
 
   return (
     <main>
+      <div id="map"></div>
       <h1>My todos</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
